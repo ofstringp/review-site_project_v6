@@ -1,4 +1,40 @@
 ---
 label: New Template
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+  description: Test Input to see what will go here thanks jsut ignore me lol yea that's
+    me, getting ingored, lol!
+- name: featured_image
+  type: file
+  config:
+    maxSize: 64
+  label: Featured Image
+  description: Testing INput again!
+- name: post_contents
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Post Contents
+  description: dayum boi
+- name: input_feild
+  type: select
+  default: ''
+  config:
+    required: false
+    options: []
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: input feild
+  description: idk chief
