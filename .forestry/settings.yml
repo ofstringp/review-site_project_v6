@@ -5,7 +5,7 @@ admin_path:
 webhook_url: 
 sections:
 - type: heading
-  label: what is this i don't wanna do this heck
+  label: Sidebar Heading
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
