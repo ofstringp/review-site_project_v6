@@ -1,4 +1,9 @@
 ---
 label: yea
 hide_body: false
-fields: []
+fields:
+- name: yea2
+  type: text
+  config:
+    required: false
+  label: yea2
